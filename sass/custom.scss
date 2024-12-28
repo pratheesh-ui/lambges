@@ -71,6 +71,9 @@ background: #333;
 	color: #fff;
 }
 
+
+
+
 @media (max-width:575px) {
     .container, .container-fluid {
         padding-left: 20px; padding-right: 20px;
@@ -2062,6 +2065,16 @@ color: #fff;
         text-align: center; margin-bottom: 30px
     }
     
+    .scrollbar_hide::-webkit-scrollbar {
+  display: none;
+}
+
+
+.scrollbar_hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+    
 }
 
 
@@ -2079,6 +2092,9 @@ color: #fff;
     .modal_style .modal-body .modal_right {
         padding: 0px 25px 50px
     }
+    
+    
+    
 }
 
 
