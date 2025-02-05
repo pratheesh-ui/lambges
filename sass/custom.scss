@@ -1687,7 +1687,9 @@ color: #fff;
         margin-bottom: 0px
     }
     
- 
+    a:hover {
+        color: #fff
+    }
     
     
     .footer_logo {
@@ -1700,11 +1702,15 @@ color: #fff;
     .footer_contact_info {
         ul {
             li {
-                position: relative; padding-left: 50px;
+                position: relative; padding-left: 40px; margin-bottom: 15px;
                 i {
                     position: absolute; left: 0; top: 5px;
                     width: 35px; height: 35px; 
                     display: block;
+                }
+                svg {
+                    position: absolute; left: 0; top: 4px;
+                    width: 22px; height: 22px
                 }
             }
         }
@@ -1792,11 +1798,15 @@ color: #fff;
     }
     
     .footer_sec .footer_contact_info ul li {
-        padding-left: 0
+        padding-left: 0; margin-bottom: 30px
     }
     
     .footer_sec .footer_contact_info ul li i {
         position: static; margin: auto auto 15px
+    }
+    
+    .footer_sec .footer_contact_info ul li svg {
+        position: static; margin: auto auto 15px; display: block
     }
     
     .nav_support {
